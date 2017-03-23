@@ -37,6 +37,7 @@
 			btn: {
 				btn_Widht: 18,
 				btn_Height: 18,
+				btn_fontSize: 12,
 				btn_bgColor: "#666666",
 				btn_bgHoverColor: "#CC0000",
 				btn_fontColor: "#CCCCCC",
@@ -180,7 +181,7 @@
 					textAlign: "center",
 					cursor: "pointer",
 					marginLeft: 3,
-					fontSize: 12,
+					fontSize: settings.btn.btn_fontSize,
 					fontFamily: settings.btn.btn_fontFamily,
 					lineHeight: settings.btn.btn_Height+"px",
 					opacity: settings.btn.btn_bgAlpha,
