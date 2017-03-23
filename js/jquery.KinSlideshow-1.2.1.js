@@ -139,7 +139,7 @@
 
 		function KSS_setTitleFont() {
 			if (settings.isHasTitleFont) {
-				$(ksthis).append("<div class='KSS_titleBox'><h2 class='title' style='margin:"+settings.titleFont.TitleMargin+";padding:"+setting.titleFont.TitlePadding+";'></h2></div>");
+				$(ksthis).append("<div class='KSS_titleBox'><h2 class='title' style='margin:"+settings.titleFont.TitleMargin+";padding:"+settings.titleFont.TitlePadding+";'></h2></div>");
 				$(ksbs + " .KSS_titleBox").css({height: getTitleBar_Height, width: "100%", position: "absolute", bottom: 0, left: 0});
 				$(ksbs + " .KSS_titleBox h2").css({
 					fontSize: settings.titleFont.TitleFont_size,
